@@ -1,0 +1,87 @@
+/* Style sheet for website */
+body{
+    background-color: #c6d0bd;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 3rem;
+    color: #dc2828;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+    color:rgb(183, 135, 50)
+    
+}
+
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    margin: 0, 2px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 15px 15px;
+    width: 500px;
+    font-size: 2rem;
+    border: 4px solid #000;
+}
+
+section{
+    display:flex;
+}
+
+article{
+    flex: 1;
+    text-align: center;
+    border: 4px solid #000;
+}
+
+article p{
+    display: inline-block;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+    text-align: center;
+}
+
+footer div p{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 310px;
+    width: 50%;
+}
+
+footer div img{
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 200px;
+    width: 50%;
+    height: auto;
+}
+
+/* Path: index.html */
